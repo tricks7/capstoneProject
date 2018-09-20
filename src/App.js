@@ -37,11 +37,14 @@ class RootContainer extends Component {
   }
 }
 
+
+
 const mapStateToProps = (state) => ({
 	state,
 });
 
 const ConnectedRootContainer = connect(mapStateToProps,null)(RootContainer);
+
 class App extends Component {
   render() {
     return (

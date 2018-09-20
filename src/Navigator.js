@@ -22,7 +22,7 @@ const AppMainTab = TabNavigator({
   Home: {
     screen: HomeScreen,
     navigationOptions: ({ navigation }) => ({
-      drawerLabel: 'Sweet home',
+      drawerLabel: 'Friend Field',
       drawerIcon: ({ tintColor }) => (
         <FontAwesome name="home" size={23} color={tintColor} />
       ),
@@ -33,7 +33,7 @@ const AppMainTab = TabNavigator({
       headerStyle: {
         backgroundColor: colors.PINK_100,
       },
-      headerTitle: 'Sweet Home',
+      headerTitle: 'Friend Filed',
       headerTitleStyle: {
         color: colors.WHITE,
       },
