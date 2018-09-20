@@ -13,7 +13,7 @@ import { colors } from './utils/constants';
 
 const Root = styled.View`
 flex: 1;
-background-color: ${props => props.theme.PINK_50};
+background-color : ${props => props.theme.PINK_50};
 `;
 
 const StatusBarAndroid = styled.View`
