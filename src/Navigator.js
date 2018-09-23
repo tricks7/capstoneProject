@@ -33,7 +33,7 @@ const AppMainTab = TabNavigator({
       headerStyle: {
         backgroundColor: colors.PINK_100,
       },
-      headerTitle: 'Friend Filed',
+      headerTitle: 'Friend Field',
       headerTitleStyle: {
         color: colors.WHITE,
       },
@@ -43,13 +43,13 @@ const AppMainTab = TabNavigator({
   Favorites: {
     screen: FavoritesScreen,
     navigationOptions: ({ navigation }) => ({
-      drawerLabel: 'Favorites',
+      drawerLabel: 'Your Basket',
       drawerIcon: ({ tintColor }) => (
-        <FontAwesome name="heartbeat" size={23} color={tintColor} />
+        <FontAwesome name="shopping-basket" size={23} color={tintColor} />
       ),
-      tabBarLabel: 'Favorites',
+      tabBarLabel: 'Basket',
       tabBarIcon: ({ tintColor }) => (
-        <FontAwesome name="heartbeat" size={23} color={tintColor} />
+        <FontAwesome name="shopping-basket" size={23} color={tintColor} />
       ),
       headerStyle: {
         backgroundColor: colors.PINK_100,

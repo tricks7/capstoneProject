@@ -1,6 +1,6 @@
 const messages = {
 	en: {
-		Welcome: 'Welcome!',
+		Welcome: 'Welcome',
 		Settings: 'Settings'
 	},
 	es: {
